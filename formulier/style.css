@@ -1,5 +1,16 @@
-body {
-    background-image: 8
+label {
+    display: inline-block;
+    padding: 1em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.welbevinden label input[type="radio"] {
+    display: block;
+}
+
+.positief label input[type="radio"] {
+    display: block;
 }
 
 #validatie img {

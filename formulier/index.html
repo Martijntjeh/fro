@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<html lang="EN">
+
+
 
 <head>
     <meta charset="utf-8">
@@ -22,7 +25,6 @@
 
 
         <fieldset class="gegevens">
-            <label for="fname"></label>
             <input type="text" name="Naam" placeholder="Hier je naam!" />
             <select name="klas">
                 <option value="">selecteer je klas</option>
@@ -121,7 +123,7 @@
             <label><input type="radio" name="zin" value="9">9</label>
             <label><input type="radio" name="zin" value="10">10</label>
         </fieldset>
-        </fieldset>
+
         <fieldset>
             <legend>Eigen vraag!</legend>
             <p>Korte vraag, wie is de huidige president van de Verenigde Staten</p>
@@ -143,16 +145,21 @@
 
         <fieldset class="form">
             <p>Wat zijn jouw plannen voor de toekomst?</p>
-            <label><input type="form" name="henk" value="1" width="200px" height="200px"> </label>
+            <label><input name="henk" value="1"> </label>
             <input type="submit">
+        </fieldset>
+        <div id="validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="blank">
+                <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+            </a>
+        </div>
     </form>
 
-    <div id="validatie">
-        <a href="http://validator.w3.org/check?uri=referer" target="_blank">
-            <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
-        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
-            <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
-        </a>
-    </div>
+
+
 
 </body>
+
+</html>
